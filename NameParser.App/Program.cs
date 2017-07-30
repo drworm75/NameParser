@@ -35,7 +35,7 @@ namespace NameParser.App
             var choice = Console.ReadLine();
 
             Console.Clear();
-            Console.WriteLine($"You chose {menu [int.Parse(choice)]}");
+            Console.WriteLine($"You chose {menu [int.Parse(choice) - 1]}");
             Console.ResetColor();
 
         }
